@@ -4,7 +4,8 @@ class Song
 
   extend Memorable
   extend Findable
-
+  include Paramble
+ 
   @@songs = []
 
   def initialize
