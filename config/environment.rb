@@ -8,4 +8,5 @@ puts Artist.count
 puts Song.count
 puts Artist.reset_all
 puts Song.reset_all
-
+puts Artist.to_param
+puts Song.to_param
