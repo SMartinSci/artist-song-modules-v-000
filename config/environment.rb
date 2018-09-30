@@ -9,5 +9,3 @@ puts Song.count
 puts Artist.reset_all
 puts Song.reset_all
 
-puts Artist.find_by_name
-puts Song.find_by_name
