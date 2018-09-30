@@ -4,7 +4,7 @@ class Song
 
   extend Memorable
   extend Findable
-  include Paramble::
+  include Paramble::InstanceMethods
  
   @@songs = []
 
