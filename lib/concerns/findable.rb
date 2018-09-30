@@ -1,5 +1,5 @@
 module Findable
-  module Instamethods
+  module InstanceMethods
   def find_by_name(name)
     self.all.detect{|a| a.name == name}
   end
